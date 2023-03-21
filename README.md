@@ -1,2 +1,3 @@
 # UCB23-1
-Projetos do terceiro semestre do curso de ciÃªncia da computaÃ§Ã£o na UCB. Algoritmos e programaÃ§Ã£o estruturada.
+Projetos do terceiro semestre do curso de ciência da computação na UCB. 
+Aula de Algoritmos e programação estruturada com o professor Vlademir.
