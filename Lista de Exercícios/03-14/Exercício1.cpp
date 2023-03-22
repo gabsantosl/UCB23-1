@@ -1,5 +1,5 @@
 /*
-GABRIELA DOS SANTOS LEITE
+GABRIELA DOS SANTOS LEITE UC22100365	
 LISTA DE EXERCÍCIOS 14/03/2023
 
 EXERCÍCIO 01- Programa que calcule a média de 5 notas de um aluno.*/
