@@ -2,8 +2,10 @@
 GABRIELA DOS SANTOS LEITE UC22100365	
 LISTA DE EXERCÍCIOS 28/03/2023
 
-EXERCÍCIO 2- Crie um programa que peça ao usuário para entrar com 4 notas de um aluno, 
-			calcule sua média e retorne o valor dessa média calculada.;
+EXERCÍCIO 2- A partir do código anterior (Ex-02) você deverá melhorar o código 
+de modo a pedir repetidas vezes as notas dos alunos, sempre que um conjunto for 
+lido e processado. Para finalizar o programa o usuário deverá pressionar uma 
+tecla específica, como a tecla 'F'.
 */
 
 #include <stdio.h>
@@ -14,18 +16,33 @@ int main(){
 	
 	setlocale(LC_ALL, "Portuguese");
 	
-	int i;
+	char x;
+	int cont, aluno;
 	float nota, media, total=0;
 	
-	for(i=1;i<=4;i++){
-		printf("Informe a %dª nota: ", i);
-		scanf("%f", &nota);
-		total = total + nota;
+	printf("====== CALCULO DE MÉDIA ======\n\n");
+
+	for(aluno = 1; ; aluno++){
+		for(cont = 1; cont <= 4 ; cont++){
+			printf("Informe a %dª nota: ", cont);
+			scanf("%f", &nota);
+			total = total + nota;
+		}
+
+		media = total/4;
+		printf("\nA média do aluno é: %.2f.", media);
+
+		printf("\n\nDigite 'F' se deseja finalizar o programa.\nPressione qualquer outra tecla para continuar: ");
+		scanf("%s", &x);
+
+		if(x != 'f'){
+			printf("\n====== CALCULO DE MÉDIA ======\n\n");
+			media = 0;
+			total = 0;
+		}else{
+			break;
+		}
 	}
-	
-	media = total/4;
-	
-	printf("\nA média do aluno é: %.2f.", media);
-	
+		
 	return 0;
 }
