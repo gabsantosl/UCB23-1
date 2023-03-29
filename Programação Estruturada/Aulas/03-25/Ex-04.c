@@ -1,6 +1,6 @@
 /* 
 GABRIELA DOS SANTOS LEITE UC22100365	
-LISTA DE EXERCÍCIOS 25/03/2023
+EXERCÍCIOS 25/03/2023
 
 1- A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando 
 dados sobre o salário e o número de filhos. A prefeitura deseja saber:
