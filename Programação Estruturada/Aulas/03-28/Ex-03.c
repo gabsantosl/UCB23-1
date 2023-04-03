@@ -17,12 +17,13 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	
 	char x;
-	int cont, aluno;
-	float nota, media, total=0;
-	
-	printf("====== CALCULO DE MÉDIA ======\n\n");
+	int cont;
+	float nota, media, total;
 
-	for(aluno = 1; ; aluno++){
+	while (x != 'F')
+	{
+		printf("\n====== CALCULO DE MÉDIA ======\n\n");
+	
 		for(cont = 1; cont <= 4 ; cont++){
 			printf("Informe a %dª nota: ", cont);
 			scanf("%f", &nota);
@@ -32,17 +33,12 @@ int main(){
 		media = total/4;
 		printf("\nA média do aluno é: %.2f.", media);
 
+		media = 0;
+		total = 0;
+
 		printf("\n\nDigite 'F' se deseja finalizar o programa.\nPressione qualquer outra tecla para continuar: ");
 		scanf("%s", &x);
-
-		if(x != 'f'){
-			printf("\n====== CALCULO DE MÉDIA ======\n\n");
-			media = 0;
-			total = 0;
-		}else{
-			break;
-		}
 	}
-		
+
 	return 0;
 }
