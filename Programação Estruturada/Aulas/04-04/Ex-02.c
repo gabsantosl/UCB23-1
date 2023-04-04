@@ -22,11 +22,15 @@ int main(void){
 		printf("Opção: ");
 		scanf("%d", &op);
 		
-		switch(op){
-			case '0':
-			printf("")
-		}
+		switch (op){
+		case 0:
+			printf("");
+			break;
 		
+		default:
+			break;
+		}
+				
 	}while(op > 0);
 	
 	printf("Informe a massa do objeto (em kg): ");
