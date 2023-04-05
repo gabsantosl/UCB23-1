@@ -1,5 +1,13 @@
 /*
+GABRIELA DOS SANTOS LEITE UC22100365
+LISTA DE EXERCÍCIOS 04/04/2023
 
+EX-01) Usar a estrutura condicional encadeada, em que serão analisados os tipos de triângulo,
+partindo da premissa que a exitência do triângulo deverá ser verificada antes. 
+Tipos de triângulo:
+1- EQUILÁTERO (3 lados iguais);
+2- ISÓCELES (2 lados iguais);
+3- ESCALENO (3 lado diferentes);
 */
 
 #include <stdio.h>
