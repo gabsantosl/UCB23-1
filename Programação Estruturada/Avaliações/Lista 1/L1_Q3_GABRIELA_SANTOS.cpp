@@ -25,7 +25,7 @@ int main(){
     printf("Sorteador de números.\n");
     
     while(num != 0){
-        srand(num);
+        num = rand;
         total++;
 
         if(num % 2 == 0){
