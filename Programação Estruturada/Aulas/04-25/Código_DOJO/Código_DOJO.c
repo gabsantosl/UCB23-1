@@ -18,8 +18,7 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 
 	char nome[20];
-	int i, cont = 1; 
-	int alunos, totalOito = 0;
+	int i, cont = 1, alunos, totalOito = 0;
 
 	printf("Quantos alunos participarão da pesquisa? ");
 	scanf("%d", &alunos);
