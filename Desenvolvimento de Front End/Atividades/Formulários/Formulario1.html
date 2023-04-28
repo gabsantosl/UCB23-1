@@ -1,0 +1,67 @@
+<!-- 
+GABRIELA DOS SANTOS LEITE UC22100365
+EXERCÍCIO FORMULÁRIOS
+
+1) Organize um formulário HTML para coletar as seguintes informações acerca
+   de um candidato para um determinado curso superior:
+        - Endereço de E-mail;
+        - Nome;
+        - Sexo;
+        - Curso;
+        - Endereço para Correspondência;
+        - Complemento de Endereço;
+        - CEP;
+        - Município;
+    
+    Termine o Formulário com um botão de 'Salvar'. 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="ISO 8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 1</title>
+</head>
+<body>
+    <font size = "5">
+        <b>
+            Formulário
+        </b>
+    </font>
+    <br /><br />
+    <form method="post" action="seuemail@email.com">
+        Endereço de E-mail:
+        <input type="text" style="width:250px;" size="10" 
+               maxlength="80"  name="email" /><br/>
+        Nome: 
+        <input type="text" style="width:250px;" size="10" 
+               maxlength="80" name="nome" /><br/>
+        <br/>
+        Sexo:
+        <select name="sexo" style="width:110px;">
+            <option>Escolha</option>
+            <option>Feminino</option>
+            <option>Masculino</option>
+            <option>Não informar</option>
+        </select><br/>
+        Curso:
+        <select name="curso" style="width:250px;">
+            <option>Escolha</option>
+            <option>Bacharel em Administração</option>
+            <option>Bacharel em Ciência da Computação</option>
+            <option>Bacharel em Ciência Comtábeis</option>
+            <option>Bacharel em Direito</option>
+            <option>Bacharel em Economia</option>
+            <option>Bacharel em Engenharia Civil</option>
+            <option>Bacharel em Engenharia de Software</option>
+            <option>Bacharel em Medicina</option>
+            <option>Bacharel em Medicina Veterinária</option>
+        </select><br/>
+        
+        <br/>
+        <input type="submit" value="Salvar"/><br/>
+    </form>
+</body>
+</html>
