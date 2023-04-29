@@ -23,22 +23,22 @@ EXERCÍCIO FORMULÁRIOS
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário 1</title>
+    <style>
+        body{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
-    <font size = "5">
-        <b>
-            Formulário
-        </b>
-    </font>
-    <br /><br />
     <form method="post" action="seuemail@email.com">
         Endereço de E-mail:
-        <input type="text" style="width:250px;" size="10" 
+        <input type="text" style="width:300px;" size="10" 
                maxlength="80"  name="email" /><br/>
         Nome: 
-        <input type="text" style="width:250px;" size="10" 
+        <input type="text" style="width:300px;" size="10" 
                maxlength="80" name="nome" /><br/>
-        <br/>
         Sexo:
         <select name="sexo" style="width:110px;">
             <option>Escolha</option>
@@ -59,7 +59,26 @@ EXERCÍCIO FORMULÁRIOS
             <option>Bacharel em Medicina</option>
             <option>Bacharel em Medicina Veterinária</option>
         </select><br/>
-        
+        Endereço para Correspondência:
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80"  name="endereço" /><br/>
+        Complemento do endereço:
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80"  name="complemento" /><br/>
+        CEP:
+        <input type="text" style="width:100px;" size="10" 
+               maxlength="80"  name="cep" /><br/>
+        Município:
+        <input type="text" style="width:260px;" size="10" 
+               maxlength="80"  name="município" />
+        <select name="estado" style="width:110px;">
+            <option>Estado</option>
+            <option>AC</option>
+            <option>RJ</option>
+            <option>DF</option>
+            <option>RN</option>
+            <option>RS</option>
+        </select><br/>
         <br/>
         <input type="submit" value="Salvar"/><br/>
     </form>

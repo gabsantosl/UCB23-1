@@ -34,55 +34,86 @@ EXERCÍCIO FORMULÁRIOS
     <meta charset="ISO 8859-1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-
-    <!---->
-
+    <title>Formulário 1</title>
+    <style>
+        body{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 150px;
+        }
+    </style>
 </head>
 <body>
     <font size = "5">
         <b>
-            Formulário
+            Formulário<br>
         </b>
     </font>
-    <br /><br />
+    <br>
     <form method="post" action="seuemail@email.com">
-        Nome: 
-        <input type="text" size="10"
-            maxlength="40" name="nome" /><br/>
-        Senha: 
-        <input type="password" size="10"
-            maxlength="20" name="password" /><br/>
-        <br/>
-        Idade:
-        <input type="number" style="width:33px;"><br/>
-        <p>
-            <font size = "4">
+        <fieldset>
+            <legend>
                 <b>
-                    Qual a cor e tamanho da sua camisa?<br/><br/>
+                    Dados Pessoais
                 </b>
-            </font> 
-            <u>
-                COR:<br/>   
-            </u>       
-            <input type="radio" name="cor" value="Azul"/>
-            Azul<br/>
-            <input type="radio" name="cor" value="Amarelo"/>
-            Amarelo<br/>
-            <input type="radio" name="cor" value="Vermelho"/>
-            Vermelho<br/>
-            <br/>
-            <u>
-                TAMANHO:<br/>   
-            </u>           
-            <input type="radio" name="tamanho" value="P"/>
-            P<br/>
-            <input type="radio" name="tamanho" value="M"/>
-            M<br/>
-            <input type="radio" name="tamanho" value="G"/>
-            G<br/>
-        </p>
-        <input type="submit" value="Confirmar"/><br/>
+            </legend>
+            Nome: 
+            <input type="text" style="width:180px;" size="10" 
+                    maxlength="80" name="nome" /><br>
+            Endereço:
+            <input type="text" style="width:180px;" size="10" 
+                    maxlength="80"  name="endereço" /><br>
+            Cidade:
+            <input type="text" style="width:180px;" size="10" 
+                    maxlength="80"  name="cidade" /><br>
+            Estado:     
+            <select name="sexo" style="width:120px;">
+                <option>Estado</option>
+                <option>Distrito Federal</option>
+                <option>Mato Grosso</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                </select><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <b>
+                    Dados Profissionais
+                </b>
+            </legend>
+            Natureza do Cargo:<br>
+            <input type="radio" name="cargo" value="Gerência"/>
+            Gerência
+            <input type="radio" name="cargo" value="Financeiro"/>
+            Financeiro
+            <input type="radio" name="cargo" value="Recepção"/>
+            Recepção
+            <input type="radio" name="cargo" value="Administrativo"/>
+            Administrativo
+            <input type="radio" name="cargo" value="Jurídico"/>
+            Jurídico
+            <br><br>  
+            Área de Interesse:<br>
+            <input type="checkbox" name="área" value="Computação"/>
+            Computação
+            <input type="checkbox" name="área" value="Biologia"/>
+            Biologia
+            <input type="checkbox" name="área" value="Meio Ambiente"/>
+            Meio Ambiente
+            <input type="checkbox" name="área" value="Engenharia"/>
+            Engenharia
+            <input type="checkbox" name="área" value="História"/>
+            História
+            <br><br>
+            Mini-Currículo:
+            <textarea cols="40" rows="4" name="Mini-Currículo"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Limpar"/><br>
     </form>
 </body>
 </html>
