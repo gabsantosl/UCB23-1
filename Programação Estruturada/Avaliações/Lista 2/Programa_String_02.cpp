@@ -8,11 +8,11 @@ MEMBROS DO GRUPO:
 - GABRIEL TEIXEIRA VINENTE
 - GABRIELA DOS SANTOS LEITE
 
-Q-01) INSERIR O NOME DO TIME DE FUTEBOL FAVORITO E EXIBIR
-      O NOME INFORMADO.
+Q-02) INSERIR O PRIMEIRO NOME E EXIBIR QUANTOS CARACTERES
+      ESTÃO PRESENTES.
 
 STRINGS UTILIZADAS: 
-- gets()
+- strlen()
 */
 
 #include <stdio.h>
@@ -22,14 +22,15 @@ STRINGS UTILIZADAS:
 
 int main(){
 	
-	setlocale(LC_ALL, "Portuguese");
+	char nome[100];
+  int tamanho;
 
-  char string[100];
+  printf("Digite seu primeiro nome: ");
+  scanf("%s", nome);
 
-  printf("Digite o nome do seu time de futebol favorito: ");
-  gets(string);
+  tamanho = strlen(nome);
 
-  printf("O seu time de futebol favorito é: %s\n", string);
+  printf("O seu nome tem %d caracteres.\n", tamanho);
 
-	return 0;
+  return 0;
 }
