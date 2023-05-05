@@ -1,0 +1,26 @@
+/*
+UNIVERSIDADE CATÓLICA DE BRASÍLIA 
+CURSO DE CIÊNCIA DA COMPUTAÇÃO - MATUTINO
+TURMA DE ALGORITMOS E PROGRAMAÇÃO ESTRUTURADA - GPE02M0392
+
+MEMBROS DO GRUPO:
+- GABRIEL DE OLIVEIRA TOREZAN
+- GABRIEL TEIXEIRA VINENTE
+- GABRIELA DOS SANTOS LEITE
+
+Q-01) 
+
+STRINGS UTILIZADAS: 
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+
+int main(){
+	
+	setlocale(LC_ALL, "Portuguese");
+
+	return 0;
+}
