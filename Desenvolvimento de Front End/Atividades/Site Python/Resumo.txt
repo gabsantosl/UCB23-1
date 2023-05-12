@@ -9,7 +9,6 @@ CARACTERÍSTICAS::
 A linguagem Python é reconhecida como uma das mais utilizadas no mercado de trabalho e estudada ao redor do mundo. Seus principais atrativos são a sua versatilidade e intuitividade. 
 
 VERSATILIDADE - Por suportar diversos paradigmas de desenvolvimento, Python se sobressai em comparação aos seus concorrentes e oferece um serviço mais completo por menos. Essa linguagem representa uma ferramenta muito conveniente para desenvolver projetos extentos e repetitivos.
-
 INTUITIVIDADE - O processo de estudo do Python também é uma das suas maiores vantagens. A linguagem possui uma estrutura simples se comparado a outras linguagens de programação. A apredizagem é acelerada e com isso a produtividade do desenvolvedor também é aprimorada. Hoje em dia, é a linguagem mais popular entre iniciantes em programação.
 
 APLICAÇÕES::
