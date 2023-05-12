@@ -3,6 +3,14 @@
     "development"
   ],
   "hints": {
-    "meta-charset-utf-8": "off"
+    "meta-charset-utf-8": "off",
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
