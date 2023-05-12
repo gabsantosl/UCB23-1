@@ -1,0 +1,38 @@
+Resumo
+
+COMO SURGIU::
+A linguagem de programação Python começou a ser desenvolvida no final da década de 80 pelo holandes Guido Van Rossum. Rossum decidiu projetar uma linguagem de script simples que tivesse sintaxe semelhamte a linguagem de programação ABC, mas que tivesse as chamadas de sistema do Amoeba. 
+
+O nome Python, diferente do que muitos pensam, não veio da cobra piton. A origem do nome enigmático veio de um seriado da emissora BBC, transmitido na década de 70. Rossum era um grande fã do programa chamado Fly Circus de Monty Python e como precisava de um nome único para seu projeto, decidiu por "Python".
+
+CARACTERÍSTICAS::
+A linguagem Python é reconhecida como uma das mais utilizadas no mercado de trabalho e estudada ao redor do mundo. Seus principais atrativos são a sua versatilidade e intuitividade. 
+
+VERSATILIDADE - Por suportar diversos paradigmas de desenvolvimento, Python se sobressai em comparação aos seus concorrentes e oferece um serviço mais completo por menos. Essa linguagem representa uma ferramenta muito conveniente para desenvolver projetos extentos e repetitivos.
+
+INTUITIVIDADE - O processo de estudo do Python também é uma das suas maiores vantagens. A linguagem possui uma estrutura simples se comparado a outras linguagens de programação. A apredizagem é acelerada e com isso a produtividade do desenvolvedor também é aprimorada. Hoje em dia, é a linguagem mais popular entre iniciantes em programação.
+
+APLICAÇÕES::
+Por oferecer uma versatilidade tão expressiva, o Python é aplicado em diversos setores de desenvolvimento. Ele é amplamente utilizado em aplicações Web, desenvolvimento de software, ciência de dados e machine learning (ML).
+
+Utilizando o exemplo de ciência de dados e machine learning, Python é aplicado pelos cientistas de dados nas seguintes situações: 
+	- manutenção de dados;
+	- interpretação de dados;
+	- rotulagem de dados.
+
+No processo de Machine Learning, o Python auxilia na automatização do aprendizado do computador. É, essencialmente, uma aplicação de inteligência artificial totalmente baseada em Python. Isso auxilia os desenvolvedores a oferecerem sistemas mais interativos e precisos, que aprendem muito mais rápido que os seus antecessores.  
+
+
+REFERÊNCIAS -
+
+https://www.alura.com.br/artigos/python-origem-do-nome
+
+https://harve.com.br/blog/programacao-python-blog/melhor-linguagem-de-programacao-python/#:~:text=Um%20dos%20principais%20motivos%20pelos,estão%20aprendendo%20pela%20primeira%20vez
+
+https://www.treinaweb.com.br/blog/o-que-e-python
+
+https://www.iugu.com/iugu4devs/blog/python-para-data-science#:~:text=O%20que%20torna%20Python%20especial,larga%20escala%20por%20determinadas%20comunidades.
+
+https://harve.com.br/blog/programacao-python-blog/python-para-que-serve-top-5-utilidades/#:~:text=Quais%20são%20as%20áreas%20que,de%20scripts%2C%20fintechs%20e%20etc.
+
+https://aws.amazon.com/pt/what-is/python/#:~:text=O%20Python%20é%20uma%20linguagem,executada%20em%20muitas%20plataformas%20diferentes.
