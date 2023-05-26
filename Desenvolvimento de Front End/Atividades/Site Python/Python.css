@@ -107,6 +107,22 @@ hr{
     background-color: #254F72;
 }
 
+.texto-container-2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    height: 100rem;
+    margin: 3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 1.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    overflow: none;
+    background-color: #254F72;
+}
+
 .texto-container-blocos{
     display: flex;
     flex-direction: row;
@@ -146,9 +162,44 @@ hr{
     color: #FFFFFF;
 }
 
+.bloco-ult{
+    background-color: #1C3B56;
+    width: 40%;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    border-radius: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 137%;
+    color: #FFFFFF;
+}
+
 .imagem-texto{
-    width: 18%;
-    height: 18%;
+    width: 25%;
+    height: 25%;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imagem-texto-sobre{
+    width: 100%;
+    height: 37rem;
+    max-width: 25%;
+    max-height: 25%;
     border-radius: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -188,4 +239,27 @@ hr{
     font-size: 1.9rem;
     line-height: 137%;
     color: #FFFFFF;
+}
+
+.download{
+    margin-top: 3.2rem; 
+    margin-left: 5rem; 
+    outline-style: auto; 
+    outline-width: 4rem; 
+    padding: 2rem;
+    position: absolute;
+
+    font-family: 'Poppins', sans-serif; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 3rem; 
+    line-height: 137%;
+    color: #FFFFFF;
+}
+
+.iframe{
+    border:none;
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
 }
