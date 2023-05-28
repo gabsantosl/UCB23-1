@@ -15,16 +15,16 @@
         <section class="naveg">
             <a class="logo" href="#home">Python Wiki</a>
             <menu class="menu">
-                <li><a class="menu" href="Python.html">Home</a></li>
-                <li><a class="menu" href="Vantagens-Python.html">Vantagens</a></li>
-                <li><a class="menu" href="Aplica-Python.html">Oportunidades</a></li>
-                <li><a class="menu" href="Download-Python.html">Download</a></li>
-                <li><a class="menu" href="Newsteller-Python.html">Newsteller</a></li>
+                <li><a class="menu" href="#home">Home</a></li>
+                <li><a class="menu" href="#vantagens">Vantagens</a></li>
+                <li><a class="menu" href="#oportunidades">Oportunidades</a></li>
+                <li><a class="menu" href="#download">Download</a></li>
+                <li><a class="menu" href="#newsteller">Newsteller</a></li>
             </menu>
         </section>
     </header>
-    <div class="fachada-box">
-        <img class="fachada-img" src="https://github.com/gabsantosl/UCB23-1/blob/master/Desenvolvimento%20de%20Front%20End/Atividades/Site%20Python/Imagens/Python-logo.png.PNG?raw=true" alt="Python Logo" align = "right">
+    <div class="fachada-container" id="home">
+        <img class="fachada-img" src="https://github.com/gabsantosl/UCB23-1/blob/master/Desenvolvimento%20de%20Front%20End/Atividades/Site%20Python/Imagens/Python%20Logo.png?raw=true" alt="Python Logo" align = "right">
             <p class="fachada-texto">
                 O Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Foi lançada
                 em 1991 pelo Holandes Guido van Rossum e desde então, tornou-se uma das linguagens mais populares do 
@@ -44,17 +44,69 @@
                 </b>
             </p>
     </div>
-    <div class="vantagens-box" style="height: fit-content;">
-        <h1 class="vantagens-topico">
+    <div class="vantagens-container" style="height: fit-content;">
+        <h1 class="vantagens-titulo" id="vantagens">
             As maiores vantagens de ser Python 
         </h1>
-        <div class="texto">
-            Para entrar no mundo da programação Python, clique no link para ser redirecionado ao site oficial
-            da linguagem Python! Para entrar no mundo da programação Python, clique no link para ser redirecionado ao site oficial
-            da linguagem Python! Para entrar no mundo da programação Python, clique no link para ser redirecionado ao site oficial
-            da linguagem Python! <br>
-            <a class="download" href="https://www.python.org/downloads/">Download</a>
-            <br><br><br><br><br>
+        <div class="vantagens-box">     
+            <div class="vantagens-itens">
+                <div class="vantagens-linha">
+                    ------------------------------------
+                </div>
+                <div class="vantagens-topicos">
+                    <b>Facilidade de aprendizado:</b><br>
+                </div>
+                    Python é considerado uma linguagem de programação fácil de aprender, principalmente para iniciantes. A sintaxe clara e a legibilidade do código tornam o processo de aprendizado mais suave, permitindo que os iniciantes se concentrem nos conceitos de programação em vez de se preocuparem com detalhes complexos da linguagem.
+            </div>      
+            <div class="vantagens-itens">
+                <div class="vantagens-linha">
+                    ------------------------------------
+                </div>
+                <div class="vantagens-topicos">
+                    <b>Suporte ativo:</b><br>
+                </div>
+                    Python possui uma comunidade ativa de desenvolvedores em todo o mundo. Isso significa que você pode encontrar suporte, recursos, bibliotecas e frameworks facilmente. Além disso, a comunidade Python está constantemente contribuindo para melhorias e atualizações na linguagem.
+            </div>
+            <div class="vantagens-itens">
+                <div class="vantagens-linha">
+                    ------------------------------------
+                </div>
+                <div class="vantagens-topicos">
+                    <b>Ampla biblioteca padrão:</b><br>
+                </div>
+                    Python possui uma biblioteca padrão abrangente, que abrange muitas tarefas comuns, desde manipulação de strings e arquivos até acesso a bancos de dados, desenvolvimento web e muito mais. Isso economiza tempo e esforço, pois você pode usar módulos prontos para uso em vez de escrever código do zero.
+            </div>
+            <div class="vantagens-itens">
+                <div class="vantagens-linha">
+                    ------------------------------------
+                </div>
+                <div class="vantagens-topicos">
+                    <b>Sintaxe clara e legivel:</b><br>
+                </div>
+                    A sintaxe do Python é projetada para ser clara, concisa e legível. Isso facilita a compreensão do código e acelera o desenvolvimento.
+            </div>
+            <div class="vantagens-itens">
+                <div class="linha-azul">
+                    ------------------------------------
+                </div>
+                <div class="vantagens-topicos">
+                    <b>Multiplataforma:</b><br>
+                </div>
+                    Python é executado em vários sistemas operacionais, como Windows, macOS, Linux e Unix. Isso oferece portabilidade e flexibilidade, permitindo que você desenvolva aplicativos em Python em diferentes ambientes.
+            </div>
+        </div>
+    </div>
+    <div class="download-container" id="download">
+        <div class="download-texto">
+            Para começar a programar em Python, você precisará instalar o interpretador Python e configurar um ambiente de desenvolvimento. 
+            Existem várias opções disponíveis, incluindo o Python oficial (CPython), bem como implementações alternativas, como o Anaconda 
+            e o PyPy.<br><br>
+            Uma vez configurado, você pode escrever seu primeiro programa em Python, geralmente conhecido como "Hello World". É um programa 
+            simples que exibe a mensagem "Hello, World!" na tela. Isso permite verificar se o ambiente de desenvolvimento está funcionando 
+            corretamente.<br><br>
+            A partir desse ponto, você pode explorar conceitos mais avançados, como variáveis, tipos de dados, estruturas de controle de fluxo 
+            (como condicionais e loops), funções, manipulação de strings, listas e dicionários, entre outros.
+            <br><br>
         </div>
     </div>
     <div class="aplica-box">
@@ -111,6 +163,56 @@
                e seu vasto ecossistema de bibliotecas e frameworks tornam-na uma escolha popular em várias indústrias.</b>
         </div>
     </div>
+    <form method="post" action="seuemail@email.com">
+        Endereço de E-mail:
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80"  name="email" /><br/>
+        Nome: 
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80" name="nome" /><br/>
+        Sexo:
+        <select name="sexo" style="width:110px;">
+            <option>Escolha</option>
+            <option>Feminino</option>
+            <option>Masculino</option>
+            <option>Não informar</option>
+        </select><br/>
+        Curso:
+        <select name="curso" style="width:250px;">
+            <option>Escolha</option>
+            <option>Bacharel em Administração</option>
+            <option>Bacharel em Ciência da Computação</option>
+            <option>Bacharel em Ciência Comtábeis</option>
+            <option>Bacharel em Direito</option>
+            <option>Bacharel em Economia</option>
+            <option>Bacharel em Engenharia Civil</option>
+            <option>Bacharel em Engenharia de Software</option>
+            <option>Bacharel em Medicina</option>
+            <option>Bacharel em Medicina Veterinária</option>
+        </select><br/>
+        Endereço para Correspondência:
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80"  name="endereço" /><br/>
+        Complemento do endereço:
+        <input type="text" style="width:300px;" size="10" 
+               maxlength="80"  name="complemento" /><br/>
+        CEP:
+        <input type="text" style="width:100px;" size="10" 
+               maxlength="80"  name="cep" /><br/>
+        Município:
+        <input type="text" style="width:260px;" size="10" 
+               maxlength="80"  name="município" />
+        <select name="estado" style="width:110px;">
+            <option>Estado</option>
+            <option>AC</option>
+            <option>RJ</option>
+            <option>DF</option>
+            <option>RN</option>
+            <option>RS</option>
+        </select><br/>
+        <br/>
+        <input type="submit" value="Salvar"/><br/>
+    </form>
     <footer>
         <hr>
         Explica Python <br>
