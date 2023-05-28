@@ -7,7 +7,7 @@
 }
 
 html{
-    height: 90%;
+    height: 100%;
     overflow: visible;
 }
 
@@ -25,7 +25,7 @@ footer{
     font-weight: bolder;
     font-size: 2rem;
     margin: 2rem;
-    color: white;
+    color: #1d3f5b;
 }
 
 menu{
@@ -43,11 +43,11 @@ li:hover{
     
 }
 
-hr{
-    height: 4px;
-    margin-top: 1.5rem;
-    background-color: white;
+.br{
+    height: 0px;
 }
+
+/* Barra de Navegação */
 
 .logo{
     font-family: 'Bayon', sans-serif;
@@ -61,7 +61,7 @@ hr{
 
 .naveg{
     height: 65px;
-    padding: 1em;
+    padding: 0.8em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,7 +82,7 @@ hr{
     margin: 0;
 }
 
-.menu-container{
+.menu-background{
     display: none;
     height: 100%;
     width: 30px;
@@ -92,32 +92,60 @@ hr{
     align-items: center;
 }
 
-.abertura{
+/* Fachada do Site */
+
+.fachada-box{
     width: 100%;
     height: fit-content;
-    padding: 3rem 3.5rem;
+    padding: 2.5rem 3.5rem 2rem 3.5rem;
     overflow: auto;
+
     background: #1d3f5b;
     background: linear-gradient(180deg, #1d3f5b 5%, #224768 30%, #275278 55%, #295880 80%) fixed;
 }
 
-.texto-container-2{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: auto;
-    height: 100rem;
-    margin: 3rem;
-    padding-top: 0.2rem;
-    padding-bottom: 1.4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border-radius: 1rem;
-    overflow: none;
-    background-color: #254F72;
+.fachada-texto{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: 0rem 27vw 1rem 0rem;
+    line-height: 137%;
+    color: #FFFFFF;
 }
 
-.texto-container-blocos{
+.fachada-img{
+    width: 25%;
+    height: 25%;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 1rem;
+    margin: 2.8rem 0rem 2.8rem 2.8rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* SITE EM BRANCO */
+
+/* Grandes Vantagens da Linguagem Python */
+
+.vantagens-topico{
+    font-family: 'Bayon', sans-serif;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    margin: 0rem 0rem 0.5rem 0rem;
+    color: #295880;
+}
+
+.vantagens-box{
+    width: 90vw;
+    height: fit-content;
+    margin: 1.5rem 3rem 2rem 3.5rem;
+    overflow: none;
+}
+
+/* Aplicações da Linguagem Python */
+
+.aplica-box{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,17 +205,7 @@ hr{
     color: #FFFFFF;
 }
 
-.imagem-texto{
-    width: 25%;
-    height: 25%;
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 1rem;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    object-fit: cover;
-    object-position: center;
-}
+
 
 .imagem-texto-sobre{
     width: 100%;
@@ -208,21 +226,6 @@ hr{
     font-size: 5rem;
     margin: 0rem;
     color: white;
-}
-
-.topico{
-    font-family: 'Bayon', sans-serif;
-    font-size: 2.5rem;
-    color: white;
-}
-
-.texto{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.3rem;
-    text-align: justify;
-    margin-right: 25%;
-    line-height: 137%;
-    color: #FFFFFF;
 }
 
 .pagina{
