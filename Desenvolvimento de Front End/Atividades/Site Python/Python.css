@@ -1,26 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Fira+Sans+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 *{
-    font-family: 'Montserrat', 'Roboto', 'Poppins', sans-serif;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
 html{
-    height: 100%;
-    font-size: 62%;
+    height: 90%;
     overflow: visible;
 }
 
 body{
     margin: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background: rgb(51,58,78);
-    background: linear-gradient(180deg, rgba(51,58,78,1) 19%, rgba(25,59,87,1) 65%);
+    background-color: white;
 }
 
 header{
@@ -28,10 +21,10 @@ header{
 }
 
 footer{
-    margin: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bolder;
     font-size: 2rem;
+    margin: 2rem;
     color: white;
 }
 
@@ -44,23 +37,37 @@ li{
     overflow: hidden;
 }
 
+li:hover{
+    font-size: 3rem;
+}
+
 hr{
     height: 4px;
     margin-top: 1.5rem;
     background-color: white;
 }
 
+.logo{
+    font-family: 'Bayon', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.3px;
+    padding-right: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
 .naveg{
+    font-family: 'Bayon', sans-serif;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: #1e2933;
+    background: #1C3B56;
     color: white;
     height: 65px;
     padding: 1em;
-    border-bottom: #384654;
-    font-size: 25px;
 }
 
 .menu{
@@ -82,29 +89,13 @@ hr{
     align-items: center;
 }
 
-.logo{
-    font-size: 2.6rem;
-    padding-right: 2rem;
-    font-weight: bolder;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.texto-container{
-    justify-content: auto;
-    align-items: auto;
-    align-content: auto;
-    width: auto;
-    height: auto;
-    margin: 3rem;
-    padding-top: 0.2rem;
-    padding-bottom: 1.4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border-radius: 1rem;
+.abertura{
+    width: 100%;
+    height: fit-content;
+    padding: 3.5rem;
     overflow: auto;
-    background-color: #254F72;
+    background: #1d3f5b;
+    background: linear-gradient(180deg, #1d3f5b 5%, #224768 30%, #275278 55%, #295880 80%) fixed;
 }
 
 .texto-container-2{
@@ -155,7 +146,7 @@ hr{
     margin-left: 6rem;
     border-radius: 1rem;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     font-size: 1.9rem;
     line-height: 137%;
@@ -176,7 +167,7 @@ hr{
     margin-left: 6rem;
     border-radius: 1rem;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     font-size: 1.9rem;
     line-height: 137%;
@@ -208,24 +199,23 @@ hr{
 }
 
 .titulo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-variant: small-caps;
-    font-weight: bold;
+    letter-spacing: 2px;
     font-size: 5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: #FFFFFF;
+    margin: 0rem;
+    color: white;
 }
 
 .topico{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 2.5rem;
-    color: #193b57;
+    color: white;
 }
 
 .texto{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.9rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3rem;
     text-align: justify;
     margin-right: 25%;
     line-height: 137%;
@@ -233,7 +223,7 @@ hr{
 }
 
 .pagina{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.9rem;
@@ -249,7 +239,7 @@ hr{
     padding: 2rem;
     position: absolute;
 
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: none; 
     font-weight: bold; 
     font-size: 3rem; 
