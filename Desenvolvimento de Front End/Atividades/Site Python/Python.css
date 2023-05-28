@@ -160,6 +160,13 @@ li:hover{
     color: #295880;
 }
 
+.vantagens-img{
+    width: auto;
+    height: 2px;
+    object-fit: contain;
+    object-position: center;
+}
+
 .vantagens-topicos{
     font-family: 'Fire Sans', sans-serif;
     font-size: 1.4rem;
