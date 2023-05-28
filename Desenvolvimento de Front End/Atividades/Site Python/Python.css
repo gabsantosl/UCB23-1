@@ -35,11 +35,10 @@ header{
 }
 
 footer{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: bolder;
-    font-size: 2rem;
-    margin: 2rem;
-    color: #1d3f5b;
+    line-height: 110%;
+    padding: 1rem;
+    background: #1d3f5b;
+    background: linear-gradient(360deg, #1d3f5b 5%, #224768 30%, #275278 55%, #295880 80%) fixed;
 }
 
 menu{
@@ -53,8 +52,12 @@ li{
 
 li:hover{
     transition: 0.2s;
-    font-size: 27px;
-    
+    font-size: 27px; 
+}
+
+li::after{
+    transition: 0.2s;
+    font-size: 25px;
 }
 
 .br{
@@ -147,30 +150,31 @@ li:hover{
 .vantagens-container{
     width: 85vw;
     height: fit-content;
-    margin: 1.5rem 15vw 2rem 3.5rem;
+    margin: 1.5rem 3.5rem 2rem 3.5rem;
     overflow: none;
 }
 
-.vantagens-titulo{
+.titulo{
     font-family: 'Bayon', sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     letter-spacing: 1px;
     margin-top: 0.7rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
     color: #295880;
 }
 
-.vantagens-img{
-    width: auto;
-    height: 2px;
-    object-fit: contain;
-    object-position: center;
+.vantagens-linha{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 1.5rem;
+    border: #295880;
+    background-color: #295880;
 }
 
 .vantagens-topicos{
     font-family: 'Fire Sans', sans-serif;
     font-size: 1.4rem;
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 0.5rem 0rem;
     color: #295880;
 }
 
@@ -195,98 +199,30 @@ li:hover{
     height: fit-content;
 }
 
-/* Aplicações da Linguagem Python */
+/* Feito em Linguagem Python */
 
-.aplica-box{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: auto;
-    align-items: auto;
-    align-content: auto;
-    width: auto;
-    height: auto;
-    margin: 3rem;
-    padding-top: 0.2rem;
-    padding-bottom: 1.4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border-radius: 1rem;
-    overflow: auto;
-    background-color: #254F72;
+.aplica-container{
+    background-color: #4c5e8f1b;
+    border-radius: 5px;
+    width: 85vw;
+    height: fit-content;
+    margin: 1.5rem 3.5rem 2rem 3.5rem;
+    padding: 1rem 2.5rem 2.2rem 2.5rem;
 }
 
-.blocos{
-    background-color: #1C3B56;
-    width: 40%;
-    row-gap: 3rem;
-    column-gap: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    margin-top: 5rem;
-    margin-left: 6rem;
-    border-radius: 1rem;
-    
-    font-family: 'IBM Plex Sans', sans-serif;
-    text-align: center;
-    font-size: 1.9rem;
-    line-height: 137%;
-    color: #FFFFFF;
-}
-
-.bloco-ult{
-    background-color: #1C3B56;
-    width: 40%;
-    row-gap: 3rem;
-    column-gap: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 6rem;
-    border-radius: 1rem;
-
-    font-family: 'IBM Plex Sans', sans-serif;
-    text-align: center;
-    font-size: 1.9rem;
-    line-height: 137%;
-    color: #FFFFFF;
-}
-
-
-
-.imagem-texto-sobre{
+.aplica-img{
+    border-radius: 50%;
+    object-fit:cover;
+    height: 100%;
     width: 100%;
-    height: 37rem;
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 1rem;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    object-fit: cover;
-    object-position: center;
 }
 
-.titulo{
-    font-family: 'Bayon', sans-serif;
-    font-variant: small-caps;
-    letter-spacing: 2px;
-    font-size: 5rem;
-    margin: 0rem;
-    color: white;
-}
-
-.pagina{
+.aplica-intro{
+    margin-right: 18vw;
     font-family: 'IBM Plex Sans', sans-serif;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 1.1rem;
     line-height: 137%;
-    color: #FFFFFF;
+    color: #171c21;
 }
 
 .download{
@@ -305,9 +241,21 @@ li:hover{
     color: #FFFFFF;
 }
 
-.iframe{
-    border:none;
-    margin-top: 2rem;
-    height: 100%;
-    width: 100%;
+/* Footer */
+
+.footer-logo{
+    font-family: 'Bayon', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-left: 2rem;
+    color: #FFFFFF;
+}
+
+.footer-texto{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-left: 2rem;
+    line-height: 137%;
+    color: #FFFFFF;
 }
