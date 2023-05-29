@@ -62,6 +62,10 @@ li::after{
     height: 0px;
 }
 
+.pagina{
+    margin-top: 30px;
+}
+
 /* Barra de Navegação */
 
 .logo{
@@ -75,6 +79,9 @@ li::after{
 }
 
 .naveg{
+    top: 0;
+    width: 100%;
+    position: fixed;
     height: 65px;
     padding: 0.8em;
     display: flex;
@@ -89,6 +96,7 @@ li::after{
 }
 
 .menu{
+    float: left;
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -112,7 +120,7 @@ li::after{
 .fachada-container{
     width: 100%;
     height: fit-content;
-    padding: 2.5rem 3.5rem 2rem 3.5rem;
+    padding: 5.5rem 3.5rem 2rem 3.5rem;
     overflow: auto;
 
     background: #1d3f5b;
@@ -146,10 +154,9 @@ li::after{
 /* Grandes Vantagens da Linguagem Python */
 
 .vantagens-container{
-    width: 85vw;
+    width: 90vw;
     height: fit-content;
-    padding-top: 1.5rem;
-    margin: 1.5rem 3.5rem 2rem 3.5rem;
+    padding: 5.5rem 0rem 2rem 3.5rem;
     overflow: none;
 }
 
@@ -206,7 +213,7 @@ li::after{
     width: 85vw;
     height: fit-content;
     margin: 1.5rem 3.5rem 1.5rem 3.5rem;
-    padding: 1.5rem 2.5rem 2.2rem 2.5rem;
+    padding: 5.5rem 3.5rem 2rem 3.5rem;
 }
 
 .aplica-intro{
@@ -265,7 +272,7 @@ li::after{
 .download-container{
     width: 60vw;
     height: fit-content;
-    padding-top: 1.5rem;
+    padding: 4.5rem 3.5rem 4rem 3.5rem;
     margin: 1.5rem 3.5rem 2rem 3.5rem;
     overflow: none;
 }
@@ -321,7 +328,7 @@ li::after{
 .form-container{
     width: 100%;
     height: fit-content;
-    padding: 1rem 3.5rem 2rem 3.5rem;
+    padding: 4.8rem 3.5rem 2rem 3.5rem;
     overflow: auto;
 
     background: #1d3f5b;
@@ -330,15 +337,15 @@ li::after{
 
 .titulo-form{
     font-family: 'Bayon', sans-serif;
-    font-size: 3rem;
+    font-size: 3.2rem;
     letter-spacing: 1px;
-    margin-top: 0rem;
-    margin-bottom: 0.3rem;
+    margin: 0;
     color: white;
 }
 
 .form-intro{
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 0rem;
     font-size: 1.2rem;
     line-height: 135%;
     color: white;
@@ -349,6 +356,10 @@ li::after{
     font-size: 1.2rem;
     line-height: 135%;
     color: white;
+}
+
+form{
+    margin-top: 0rem;
 }
 
 div, .form{
@@ -421,9 +432,17 @@ input[type=submit]:hover{
 }
 /* Footer */
 
+.footer-linha{
+    width: 97%;
+    height: 4px;
+    margin: 0rem 0rem 1.5rem 0rem;
+    border: #172c43;
+    background-color: #1d3f5b;
+}
+
 .footer-logo{
     font-family: 'Bayon', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     margin-left: 2rem;
     color: #FFFFFF;
@@ -431,7 +450,7 @@ input[type=submit]:hover{
 
 .footer-texto{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: justify;
     margin-left: 2rem;
     line-height: 137%;
