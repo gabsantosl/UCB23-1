@@ -270,7 +270,6 @@ li::after{
 /* Download */
 
 .download-container{
-    width: 60vw;
     height: fit-content;
     padding: 4.5rem 3.5rem 4rem 3.5rem;
     margin: 1.5rem 3.5rem 2rem 3.5rem;
@@ -286,8 +285,15 @@ li::after{
     color: #295880;
 }
 
+.download-img{
+    object-fit:cover;
+    height: 20rem;
+    width: 20rem;
+    margin-right: 1.5rem;
+}
+
 .download-linha{
-    width: 97%;
+    width: 60%;
     height: 4px;
     margin: 0rem 0rem 1.5rem 0rem;
     border: #295880;
@@ -295,6 +301,7 @@ li::after{
 }
 
 .download-texto{
+    width: 50vw;
     margin-right: 3rem;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.1rem;
