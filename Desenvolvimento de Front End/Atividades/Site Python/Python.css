@@ -210,15 +210,51 @@ li::after{
     padding: 1rem 2.5rem 2.2rem 2.5rem;
 }
 
+.aplica-intro{
+    margin-right: 18vw;
+    margin-bottom: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 137%;
+    color: #171c21;
+}
+
+.aplica-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    max-height: 50%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.aplica-itens{
+    margin-right: 8vw;
+    width: 100%;
+    height: 100%;
+}
+
 .aplica-img{
     border-radius: 50%;
     object-fit:cover;
-    height: 100%;
-    width: 100%;
+    height: 10rem;
+    width: 10rem;
+    margin-right: 1.5rem;
 }
 
-.aplica-intro{
-    margin-right: 18vw;
+.aplica-topico{
+    font-family: 'Fire Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #295880;
+}
+
+.aplica-texto{
+    margin-right: 3rem;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.1rem;
     line-height: 137%;
