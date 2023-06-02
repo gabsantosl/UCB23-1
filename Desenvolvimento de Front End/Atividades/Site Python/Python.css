@@ -1,5 +1,7 @@
+/* Fontes utilizadas no site: Bayon, Fira Sans, IBM Plex Sans */
 @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Fira+Sans+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+/* Formatação geral do site */
 *{
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +14,7 @@ html{
     overflow: visible;
 }
 
+/* Pequena animação ao abrir a página */
 body{
     margin: 0;
     background-color: white;
@@ -48,6 +51,7 @@ li{
     overflow: hidden;
 }
 
+/* Efeito de hover (cursor passando por cima) */
 li:hover{
     transition: 0.2s;
     font-size: 27px; 
@@ -78,6 +82,7 @@ li::after{
     color: white;
 }
 
+/* Uso de FlexBox para formatar a barra corretamente */
 .naveg{
     top: 0;
     width: 100%;
@@ -123,6 +128,7 @@ li::after{
     padding: 5.5rem 3.5rem 2rem 3.5rem;
     overflow: auto;
 
+    /* Cores de fundo estilizadas em degradê */
     background: #1d3f5b;
     background: linear-gradient(180deg, #1d3f5b 5%, #224768 30%, #275278 55%, #295880 80%) fixed;
 }
@@ -136,6 +142,7 @@ li::after{
     color: #FFFFFF;
 }
 
+/* Logo Python */
 .fachada-img{
     width: 20rem;
     height: 20rem;
@@ -153,6 +160,7 @@ li::after{
 
 /* Grandes Vantagens da Linguagem Python */
 
+/* Container transparente para melhor formatação do texto */
 .vantagens-container{
     width: 90vw;
     height: fit-content;
@@ -184,6 +192,7 @@ li::after{
     color: #295880;
 }
 
+/* Pequenas Flexbox para organzação dos textos */
 .vantagens-box{
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +214,7 @@ li::after{
     height: fit-content;
 }
 
-/* Feito em Linguagem Python */
+/* Aplicações da Linguagem Python */
 
 .aplica-container{
     background-color: #4c5e8f1b;
@@ -243,6 +252,7 @@ li::after{
     height: 100%;
 }
 
+/* Design das imagens em círculo e acompanhando os textos de descrição */
 .aplica-img{
     border-radius: 50%;
     object-fit:cover;
@@ -285,6 +295,7 @@ li::after{
     color: #295880;
 }
 
+/* Animação do site Canva */
 .download-img{
     object-fit:cover;
     height: 20rem;
@@ -309,6 +320,7 @@ li::after{
     color: #171c21;
 }
 
+/* Formatação do botão de redirecionamento de download */
 .download{
     font-family: 'Bayon', sans-serif;
     font-size: 1.7rem;
@@ -322,6 +334,7 @@ li::after{
     background-color: #295880;
 }
 
+/* Animação do botão de redirecionamento de download */
 .download:hover{
     cursor: pointer;
     font-weight: bold;
@@ -365,6 +378,8 @@ li::after{
     color: white;
 }
 
+/* Alinhamento dos campos do formulário */
+
 form{
     margin-top: 0rem;
 }
@@ -379,6 +394,8 @@ label{
     display: inline-block;
     text-align: right;
 }
+
+/* Formatação dos campos do formulário (tamanho e comprimento) */
 
 input[type=text]{
     width: 30%;
