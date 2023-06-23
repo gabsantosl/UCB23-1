@@ -1,0 +1,106 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #E6E7E1;
+}
+
+.navbar{
+    background-color: #02083A;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler-icon, .nav-link{
+    color: white;
+}
+
+.nav-item:hover{
+    transition: 0.2s;
+    font-size: 110%; 
+}
+
+.nav-item::after{
+    transition: 0.2s;
+    font-size: 100%;
+}
+
+.carousel-item {
+    height: 30rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #666;
+}
+
+.figure-caption {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.table {
+    margin-bottom: 2rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+}
+
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-floating input,
+.form-floating textarea{
+    border-radius: 5px;
+}
+
+.form-floating textarea{
+    height: 100px;
+}
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.footer{
+    background-color: #02083A;
+    color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
